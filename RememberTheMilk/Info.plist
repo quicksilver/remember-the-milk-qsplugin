@@ -15,7 +15,7 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleVersion</key>
-	<string>ED</string>
+	<string>EF</string>
 	<key>QSActions</key>
 	<dict>
 		<key>RTMAddTaskAction</key>

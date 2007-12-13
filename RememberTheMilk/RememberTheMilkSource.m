@@ -70,7 +70,7 @@
 {
     NSMutableArray *objects=[NSMutableArray arrayWithCapacity:1];
       
-    RTMSession *session = [m_controller getSession];
+    RTMSession *session = [m_controller getSessionWithError:NULL];
       
     if (session)
     {

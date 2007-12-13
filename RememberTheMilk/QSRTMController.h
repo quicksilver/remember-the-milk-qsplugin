@@ -44,7 +44,7 @@ void QSRTMNotify(NSString *message);
 
 + (QSRTMController *)sharedInstance;
 
-- (RTMSession *)getSession;
+- (RTMSession *)getSessionWithError:(NSString **)errorString;
 
 - (NSArray *)mapListsToQObjects:(NSArray *)lists;
 

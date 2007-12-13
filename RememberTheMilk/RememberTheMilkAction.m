@@ -72,7 +72,7 @@
 {
     if ([action isEqualToString:kRTMAddTaskAction])
     {    
-        RTMSession *session = [m_controller getSession];
+        RTMSession *session = [m_controller getSessionWithError:NULL];
 
         if (session)
         {
@@ -91,7 +91,8 @@
 
 - (QSObject *)newTaskWithText:(QSObject *)dObject inList:(QSObject *)iObject
 {
-    RTMSession *session = [m_controller getSession];
+    NSString *errorStr = NULL;
+    RTMSession *session = [m_controller getSessionWithError:&errorStr];
 
     if (session)
     {
@@ -145,6 +146,10 @@
         {
             QSRTMNotify([NSString stringWithFormat:@"There was an error (%@) creating todo", err]);
         }
+    }
+    else
+    {
+        QSRTMNotify(errorStr);
     }
     
 	return nil;

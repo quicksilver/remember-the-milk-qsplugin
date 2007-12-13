@@ -40,6 +40,7 @@ void QSRTMNotify(NSString *message)
 {
     QSShowNotifierWithAttributes([NSDictionary dictionaryWithObjectsAndKeys:@"Remember The Milk", QSNotifierTitle,
                                                                                 message, QSNotifierText,
+                                                                                [QSResourceManager imageNamed:@"Cow"], QSNotifierIcon,
                                                                                 nil]);
 }
 
@@ -61,7 +62,6 @@ void QSRTMNotify(NSString *message)
     self = [super init];
     if (self)
     {
-        // initialize with your API key and shared secret
         #error Please obtain an API key from www.rememberthemilk.com and enter it here
         // yeah, sorry about that
         RTMInit(@"My API Key", @"My Shared Secret");
@@ -72,7 +72,7 @@ void QSRTMNotify(NSString *message)
 }
 
 // this method may have too many side effects
-- (RTMSession *)getSession
+- (RTMSession *)getSessionWithError:(NSString **)errorString
 {
     if (!m_session) // there's no session object, try to make one
     {
@@ -88,7 +88,9 @@ void QSRTMNotify(NSString *message)
         }
         else // no stored token.  must authenticate.
         {
-            QSRTMNotify(@"You must authenticate this plugin in preferences before use.");
+            if (errorString)
+                *errorString = @"You must authenticate this plugin in preferences before use.";
+            
             return nil;
         }
     }
@@ -117,7 +119,8 @@ void QSRTMNotify(NSString *message)
         {
             // TODO: verify that the problem actually lies with the token (w/ rtm.auth.checkToken)
         
-            QSRTMNotify(@"Authentication has expired. You must reauthenticate to continue using this plugin.");
+            if (errorString)
+                *errorString = @"Authentication has expired. You must reauthenticate to continue using this plugin.";
             [[NSUserDefaults standardUserDefaults] setValue:@"" forKey:@"QSRTMToken"];
         
             [m_session release];
