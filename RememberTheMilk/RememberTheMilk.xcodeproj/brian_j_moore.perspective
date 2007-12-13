@@ -204,10 +204,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6A3A05BA0D10FBC80011C1DC</string>
+						<string>6A3A05C90D10FDF20011C1DC</string>
 						<key>history</key>
 						<array>
-							<string>6AC0257F0D10DEFD001972D7</string>
+							<string>6A3A05BA0D10FBC80011C1DC</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -244,10 +244,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6A3A05BB0D10FBC80011C1DC</string>
+						<string>6A3A05CB0D10FDF20011C1DC</string>
 						<key>history</key>
 						<array>
-							<string>6AC025810D10DEFD001972D7</string>
+							<string>6A3A05BB0D10FBC80011C1DC</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -284,10 +284,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6A3A05BC0D10FBC80011C1DC</string>
+						<string>6A3A05CC0D10FDF20011C1DC</string>
 						<key>history</key>
 						<array>
-							<string>6AC025820D10DEFD001972D7</string>
+							<string>6A3A05BC0D10FBC80011C1DC</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -736,7 +736,7 @@
 							<real>288</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>-57 59 1211 819 0 0 1440 878 </string>
+						<string>62 59 1211 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -766,7 +766,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6A3A05B90D10FBC80011C1DC</string>
+										<string>6A3A05C40D10FDF20011C1DC</string>
 										<key>history</key>
 										<array>
 											<string>6A43B11A0C7C787500D03784</string>
@@ -809,7 +809,7 @@
 											<string>6A3A057C0D10F2EE0011C1DC</string>
 											<string>6A3A05930D10F8160011C1DC</string>
 											<string>6A3A05940D10F8160011C1DC</string>
-											<string>6A3A05A60D10F87D0011C1DC</string>
+											<string>6A3A05C30D10FDF20011C1DC</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -847,22 +847,6 @@
 											<string>6AC024A40D10DABC001972D7</string>
 											<string>6AC0254C0D10DDBE001972D7</string>
 											<string>6AC0256D0D10DEE1001972D7</string>
-											<string>6A3A04E60D10E5690011C1DC</string>
-											<string>6A3A05680D10F2100011C1DC</string>
-											<string>6A3A05690D10F2100011C1DC</string>
-											<string>6A3A057E0D10F2EE0011C1DC</string>
-											<string>6A3A057F0D10F2EE0011C1DC</string>
-											<string>6A3A05800D10F2EE0011C1DC</string>
-											<string>6A3A05810D10F2EE0011C1DC</string>
-											<string>6A3A05820D10F2EE0011C1DC</string>
-											<string>6A3A05830D10F2EE0011C1DC</string>
-											<string>6A3A05840D10F2EE0011C1DC</string>
-											<string>6A3A05960D10F8160011C1DC</string>
-											<string>6A3A05970D10F8160011C1DC</string>
-											<string>6A3A05980D10F8160011C1DC</string>
-											<string>6A3A05990D10F8160011C1DC</string>
-											<string>6A3A059A0D10F8160011C1DC</string>
-											<string>6A3A059B0D10F8160011C1DC</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -878,7 +862,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {901, 621}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-57 59 1211 819 0 0 1440 878 </string>
+								<string>62 59 1211 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -907,7 +891,7 @@
 										<key>Frame</key>
 										<string>{{10, 27}, {901, 125}}</string>
 										<key>RubberWindowFrame</key>
-										<string>-57 59 1211 819 0 0 1440 878 </string>
+										<string>62 59 1211 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -987,14 +971,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>6A3A04D90D10E5370011C1DC</string>
+				<string>6A3A05C50D10FDF20011C1DC</string>
 				<string>1CA23EE50692099D00951B8B</string>
-				<string>6A3A04DA0D10E5370011C1DC</string>
+				<string>6A3A05C60D10FDF20011C1DC</string>
 				<string>6A43B0BC0C7BEB0C00D03784</string>
-				<string>6A3A04DB0D10E5370011C1DC</string>
+				<string>6A3A05C70D10FDF20011C1DC</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 				<string>1CA23EE80692099D00951B8B</string>
-				<string>6A3A04DC0D10E5370011C1DC</string>
+				<string>6A3A05C80D10FDF20011C1DC</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.buildAndRun</string>
@@ -1166,9 +1150,10 @@
 		<string>6A43B15D0C7C78C600D03784</string>
 		<string>6A43B8950C7D397400D03784</string>
 		<string>6A43B1600C7C78C600D03784</string>
+		<string>/Users/brian_j_moore/rtm-quicksilver/RememberTheMilk/RememberTheMilk.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-57 59 1211 819 0 0 1440 878 </string>
+	<string>62 59 1211 819 0 0 1440 878 </string>
 	<key>WindowTools</key>
 	<array>
 		<dict>
