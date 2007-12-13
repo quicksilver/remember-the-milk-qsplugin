@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A43B2DD0C7CC04700D03784 /* RTMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A43B2DC0C7CC04700D03784 /* RTMSession.m */; };
+		6A43B58F0C7CDEC600D03784 /* RTMList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A43B58E0C7CDEC600D03784 /* RTMList.m */; };
+		6A43B6B60C7CF11700D03784 /* QSRTMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A43B6B50C7CF11700D03784 /* QSRTMController.m */; };
+		6A46AD020C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Parsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46ACFF0C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Parsing.m */; };
+		6A46AD030C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Unparsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46AD010C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Unparsing.m */; };
+		6A66052C0C7A8A9700721F36 /* RTMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6605250C7A8A9700721F36 /* RTMAdditions.m */; };
+		6A66052D0C7A8A9700721F36 /* RTMCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6605270C7A8A9700721F36 /* RTMCommon.m */; };
+		6A66052E0C7A8A9700721F36 /* RTMMethodCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6605290C7A8A9700721F36 /* RTMMethodCall.m */; };
+		6A66052F0C7A8A9700721F36 /* RTMResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A66052B0C7A8A9700721F36 /* RTMResponse.m */; };
+		6A6605330C7A8CB800721F36 /* RTMPreferencePane.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6A6605320C7A8CB800721F36 /* RTMPreferencePane.nib */; };
+		6A6605A20C7A93E300721F36 /* RTMPreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6605A10C7A93E300721F36 /* RTMPreferencePane.m */; };
+		6A6605E30C7A96C100721F36 /* QSInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA8E9D0816CCCA00A858CD /* QSInterface.framework */; };
+		6A6605E50C7A984E00721F36 /* QSEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA8E9C0816CCCA00A858CD /* QSEffects.framework */; };
+		6AC024380D10C43F001972D7 /* cow.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6AC024370D10C43F001972D7 /* cow.icns */; };
+		6AEDC32D0C777463005892D7 /* RememberTheMilkAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDC32A0C777463005892D7 /* RememberTheMilkAction.m */; };
+		6AEDC32E0C777463005892D7 /* RememberTheMilkSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDC32C0C777463005892D7 /* RememberTheMilkSource.m */; };
+		7F35FF4007F9ACD90056051D /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F35FF3C07F9ACD90056051D /* QSCore.framework */; };
+		7F35FF4207F9ACD90056051D /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F35FF3E07F9ACD90056051D /* QSFoundation.framework */; };
+		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32DBCF980370C29C00C91783 /* RememberTheMilk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RememberTheMilk_Prefix.pch; sourceTree = "<group>"; };
+		6A43B2DB0C7CC04700D03784 /* RTMSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMSession.h; sourceTree = "<group>"; };
+		6A43B2DC0C7CC04700D03784 /* RTMSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMSession.m; sourceTree = "<group>"; };
+		6A43B58D0C7CDEC600D03784 /* RTMList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMList.h; sourceTree = "<group>"; };
+		6A43B58E0C7CDEC600D03784 /* RTMList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMList.m; sourceTree = "<group>"; };
+		6A43B6B40C7CF11700D03784 /* QSRTMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSRTMController.h; sourceTree = "<group>"; };
+		6A43B6B50C7CF11700D03784 /* QSRTMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSRTMController.m; sourceTree = "<group>"; };
+		6A46ACFE0C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Parsing.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSCalendarDate+ISO8601Parsing.h"; sourceTree = "<group>"; };
+		6A46ACFF0C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Parsing.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSCalendarDate+ISO8601Parsing.m"; sourceTree = "<group>"; };
+		6A46AD000C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Unparsing.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSCalendarDate+ISO8601Unparsing.h"; sourceTree = "<group>"; };
+		6A46AD010C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Unparsing.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSCalendarDate+ISO8601Unparsing.m"; sourceTree = "<group>"; };
+		6A6605240C7A8A9700721F36 /* RTMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RTMAdditions.h; sourceTree = "<group>"; };
+		6A6605250C7A8A9700721F36 /* RTMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RTMAdditions.m; sourceTree = "<group>"; };
+		6A6605260C7A8A9700721F36 /* RTMCommon.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RTMCommon.h; sourceTree = "<group>"; };
+		6A6605270C7A8A9700721F36 /* RTMCommon.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RTMCommon.m; sourceTree = "<group>"; };
+		6A6605280C7A8A9700721F36 /* RTMMethodCall.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RTMMethodCall.h; sourceTree = "<group>"; };
+		6A6605290C7A8A9700721F36 /* RTMMethodCall.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RTMMethodCall.m; sourceTree = "<group>"; };
+		6A66052A0C7A8A9700721F36 /* RTMResponse.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RTMResponse.h; sourceTree = "<group>"; };
+		6A66052B0C7A8A9700721F36 /* RTMResponse.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RTMResponse.m; sourceTree = "<group>"; };
+		6A6605320C7A8CB800721F36 /* RTMPreferencePane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = RTMPreferencePane.nib; sourceTree = "<group>"; };
+		6A6605A00C7A93E300721F36 /* RTMPreferencePane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPreferencePane.h; sourceTree = "<group>"; };
+		6A6605A10C7A93E300721F36 /* RTMPreferencePane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMPreferencePane.m; sourceTree = "<group>"; };
+		6AC024370D10C43F001972D7 /* cow.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = cow.icns; sourceTree = "<group>"; };
+		6AEDC3290C777463005892D7 /* RememberTheMilkAction.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RememberTheMilkAction.h; sourceTree = "<group>"; };
+		6AEDC32A0C777463005892D7 /* RememberTheMilkAction.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RememberTheMilkAction.m; sourceTree = "<group>"; };
+		6AEDC32B0C777463005892D7 /* RememberTheMilkSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RememberTheMilkSource.h; sourceTree = "<group>"; };
+		6AEDC32C0C777463005892D7 /* RememberTheMilkSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RememberTheMilkSource.m; sourceTree = "<group>"; };
+		7F35FF3C07F9ACD90056051D /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSCore.framework; sourceTree = QSFrameworks; };
+		7F35FF3D07F9ACD90056051D /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSEffects.framework; sourceTree = QSFrameworks; };
+		7F35FF3E07F9ACD90056051D /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSFoundation.framework; sourceTree = QSFrameworks; };
+		7F35FF3F07F9ACD90056051D /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSInterface.framework; sourceTree = QSFrameworks; };
+		7FFA8E9C0816CCCA00A858CD /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSEffects.framework; sourceTree = QSFrameworks; };
+		7FFA8E9D0816CCCA00A858CD /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSInterface.framework; sourceTree = QSFrameworks; };
+		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1AC9740486D14A00FE50C9 /* RememberTheMilk.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RememberTheMilk.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		E1EAB047068128A800774DFF /* RememberTheMilk.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RememberTheMilk.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D1AC96E0486D14A00FE50C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6605E50C7A984E00721F36 /* QSEffects.framework in Frameworks */,
+				6A6605E30C7A96C100721F36 /* QSInterface.framework in Frameworks */,
+				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
+				7F35FF4007F9ACD90056051D /* QSCore.framework in Frameworks */,
+				7F35FF4207F9ACD90056051D /* QSFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0259C574FE90428111CA0C5A /* RememberTheMilk */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF9E0370C38000C91783 /* Classes */,
+				32DBCF9F0370C38200C91783 /* Other Sources */,
+				0259C582FE90428111CA0C5A /* Resources */,
+				1ED78706FE9D4A0611CA0C5A /* Products */,
+				2E58F364FFB232C311CA0CBA /* Frameworks */,
+			);
+			name = RememberTheMilk;
+			sourceTree = "<group>";
+		};
+		0259C582FE90428111CA0C5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6AC024370D10C43F001972D7 /* cow.icns */,
+				6A6605320C7A8CB800721F36 /* RTMPreferencePane.nib */,
+				8D1AC9730486D14A00FE50C9 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1ED78706FE9D4A0611CA0C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1AC9740486D14A00FE50C9 /* RememberTheMilk.qsplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E58F364FFB232C311CA0CBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
+				7F35FF3C07F9ACD90056051D /* QSCore.framework */,
+				7F35FF3E07F9ACD90056051D /* QSFoundation.framework */,
+				7FFA8E9C0816CCCA00A858CD /* QSEffects.framework */,
+				7FFA8E9D0816CCCA00A858CD /* QSInterface.framework */,
+				7FC20C8107FB741700FDD3CA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32DBCF9E0370C38000C91783 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A43B6B40C7CF11700D03784 /* QSRTMController.h */,
+				6A43B6B50C7CF11700D03784 /* QSRTMController.m */,
+				6AEDC3290C777463005892D7 /* RememberTheMilkAction.h */,
+				6AEDC32A0C777463005892D7 /* RememberTheMilkAction.m */,
+				6AEDC32B0C777463005892D7 /* RememberTheMilkSource.h */,
+				6AEDC32C0C777463005892D7 /* RememberTheMilkSource.m */,
+				E1EAB047068128A800774DFF /* RememberTheMilk.h */,
+				6A6605240C7A8A9700721F36 /* RTMAdditions.h */,
+				6A6605250C7A8A9700721F36 /* RTMAdditions.m */,
+				6A6605260C7A8A9700721F36 /* RTMCommon.h */,
+				6A6605270C7A8A9700721F36 /* RTMCommon.m */,
+				6A6605280C7A8A9700721F36 /* RTMMethodCall.h */,
+				6A6605290C7A8A9700721F36 /* RTMMethodCall.m */,
+				6A66052A0C7A8A9700721F36 /* RTMResponse.h */,
+				6A66052B0C7A8A9700721F36 /* RTMResponse.m */,
+				6A6605A00C7A93E300721F36 /* RTMPreferencePane.h */,
+				6A6605A10C7A93E300721F36 /* RTMPreferencePane.m */,
+				6A43B2DB0C7CC04700D03784 /* RTMSession.h */,
+				6A43B2DC0C7CC04700D03784 /* RTMSession.m */,
+				6A43B58D0C7CDEC600D03784 /* RTMList.h */,
+				6A43B58E0C7CDEC600D03784 /* RTMList.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32DBCF9F0370C38200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6A46ACFE0C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Parsing.h */,
+				6A46ACFF0C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Parsing.m */,
+				6A46AD000C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Unparsing.h */,
+				6A46AD010C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Unparsing.m */,
+				32DBCF980370C29C00C91783 /* RememberTheMilk_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		7FC20C8107FB741700FDD3CA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F35FF3D07F9ACD90056051D /* QSEffects.framework */,
+				7F35FF3F07F9ACD90056051D /* QSInterface.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1AC9600486D14A00FE50C9 /* RememberTheMilk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F6B3EEB085CE8DF000735A8 /* Build configuration list for PBXNativeTarget "RememberTheMilk" */;
+			buildPhases = (
+				8D1AC9660486D14A00FE50C9 /* Resources */,
+				8D1AC96A0486D14A00FE50C9 /* Sources */,
+				8D1AC96E0486D14A00FE50C9 /* Frameworks */,
+				E1022B2806B3475D00299BEC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RememberTheMilk;
+			productInstallPath = "$(HOME)/Developer/Palettes";
+			productName = RememberTheMilk;
+			productReference = 8D1AC9740486D14A00FE50C9 /* RememberTheMilk.qsplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0259C573FE90428111CA0C5A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7F6B3EEF085CE8DF000735A8 /* Build configuration list for PBXProject "RememberTheMilk" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 0259C574FE90428111CA0C5A /* RememberTheMilk */;
+			projectDirPath = "";
+			targets = (
+				8D1AC9600486D14A00FE50C9 /* RememberTheMilk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1AC9660486D14A00FE50C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6605330C7A8CB800721F36 /* RTMPreferencePane.nib in Resources */,
+				6AC024380D10C43F001972D7 /* cow.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1022B2806B3475D00299BEC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$SRCROOT/bltrversion $INFOPLIST_FILE";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D1AC96A0486D14A00FE50C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEDC32D0C777463005892D7 /* RememberTheMilkAction.m in Sources */,
+				6AEDC32E0C777463005892D7 /* RememberTheMilkSource.m in Sources */,
+				6A66052C0C7A8A9700721F36 /* RTMAdditions.m in Sources */,
+				6A66052D0C7A8A9700721F36 /* RTMCommon.m in Sources */,
+				6A66052E0C7A8A9700721F36 /* RTMMethodCall.m in Sources */,
+				6A66052F0C7A8A9700721F36 /* RTMResponse.m in Sources */,
+				6A6605A20C7A93E300721F36 /* RTMPreferencePane.m in Sources */,
+				6A43B2DD0C7CC04700D03784 /* RTMSession.m in Sources */,
+				6A43B58F0C7CDEC600D03784 /* RTMList.m in Sources */,
+				6A43B6B60C7CF11700D03784 /* QSRTMController.m in Sources */,
+				6A46AD020C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Parsing.m in Sources */,
+				6A46AD030C7E8F0C002BCFE8 /* NSCalendarDate+ISO8601Unparsing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F6B3EEC085CE8DF000735A8 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(QSFrameworks)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RememberTheMilk_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-lcrypto",
+				);
+				PRODUCT_NAME = RememberTheMilk;
+				WRAPPER_EXTENSION = qsplugin;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		7F6B3EED085CE8DF000735A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(QSFrameworks)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RememberTheMilk_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-lcrypto",
+				);
+				PRODUCT_NAME = RememberTheMilk;
+				WRAPPER_EXTENSION = qsplugin;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		7F6B3EF0085CE8DF000735A8 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		7F6B3EF1085CE8DF000735A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_MODEL_TUNING = G5;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F6B3EEB085CE8DF000735A8 /* Build configuration list for PBXNativeTarget "RememberTheMilk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6B3EEC085CE8DF000735A8 /* Development */,
+				7F6B3EED085CE8DF000735A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F6B3EEF085CE8DF000735A8 /* Build configuration list for PBXProject "RememberTheMilk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6B3EF0085CE8DF000735A8 /* Development */,
+				7F6B3EF1085CE8DF000735A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0259C573FE90428111CA0C5A /* Project object */;
+}

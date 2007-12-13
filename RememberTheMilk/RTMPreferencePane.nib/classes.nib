@@ -1,0 +1,31 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {showPaneHelp = id; }; 
+            CLASS = QSPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_firstKeyView" = NSView; 
+                "_initialKeyView" = NSView; 
+                "_lastKeyView" = NSView; 
+                "_window" = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {authenticateRTM = id; resetAuth = id; wasAuthenticated = id; }; 
+            CLASS = RTMPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "m_authLabel" = NSTextField; 
+                "m_finishButton" = NSButton; 
+                "m_startButton" = NSButton; 
+            }; 
+            SUPERCLASS = QSPreferencePane; 
+        }
+    ); 
+    IBVersion = 1; 
+}
