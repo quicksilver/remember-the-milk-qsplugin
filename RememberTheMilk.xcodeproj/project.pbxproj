@@ -64,6 +64,14 @@
 		7FFA8E9D0816CCCA00A858CD /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSInterface.framework; sourceTree = QSFrameworks; };
 		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1AC9740486D14A00FE50C9 /* RememberTheMilk.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RememberTheMilk.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD134BBE14E0218500E6C7BF /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		CD134BBF14E0218500E6C7BF /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		CD134BC014E0218500E6C7BF /* Developer.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
+		CD134BC114E0218500E6C7BF /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
+		CD134BC214E0218500E6C7BF /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Debug.xcconfig; sourceTree = "<group>"; };
+		CD134BC314E0218500E6C7BF /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Release.xcconfig; sourceTree = "<group>"; };
+		CD134BC414E0218500E6C7BF /* Quicksilver.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
+		CD134BC514E0218500E6C7BF /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		E1EAB047068128A800774DFF /* RememberTheMilk.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RememberTheMilk.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +95,7 @@
 		0259C574FE90428111CA0C5A /* RememberTheMilk */ = {
 			isa = PBXGroup;
 			children = (
+				CD134BBD14E0218500E6C7BF /* Configuration */,
 				32DBCF9E0370C38000C91783 /* Classes */,
 				32DBCF9F0370C38200C91783 /* Other Sources */,
 				0259C582FE90428111CA0C5A /* Resources */,
@@ -175,6 +184,21 @@
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
+		};
+		CD134BBD14E0218500E6C7BF /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				CD134BBE14E0218500E6C7BF /* Common.xcconfig */,
+				CD134BBF14E0218500E6C7BF /* Debug.xcconfig */,
+				CD134BC014E0218500E6C7BF /* Developer.xcconfig */,
+				CD134BC114E0218500E6C7BF /* QSPlugIn.xcconfig */,
+				CD134BC214E0218500E6C7BF /* QSPlugIn_Debug.xcconfig */,
+				CD134BC314E0218500E6C7BF /* QSPlugIn_Release.xcconfig */,
+				CD134BC414E0218500E6C7BF /* Quicksilver.pch */,
+				CD134BC514E0218500E6C7BF /* Release.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = QS_SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
