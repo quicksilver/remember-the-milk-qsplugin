@@ -32,7 +32,6 @@
  */
 
 #import "QSRTMController.h"
-#import <QSCore/QSNotifyMediator.h>
 
 static QSRTMController *g_rtmController = nil;
 
@@ -62,8 +61,7 @@ void QSRTMNotify(NSString *message)
     self = [super init];
     if (self)
     {
-      #error Please obtain an API key from www.rememberthemilk.com and enter it here yeah, sorry about that. Or see key.cpgz in this directory
-        RTMInit(@"My API Key", @"My Shared Secret");
+      #error Please obtain an API key from www.rememberthemilk.com and enter it here yeah, sorry about that.        RTMInit(@"My API Key", @"My Shared Secret");
         
         m_session = nil;
     }

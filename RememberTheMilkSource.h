@@ -31,7 +31,6 @@
  *  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
  */
 
-#import <QSCore/QSObjectSource.h>
 
 @class QSRTMController;
 @interface RememberTheMilkSource : QSObjectSource

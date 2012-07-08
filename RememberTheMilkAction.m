@@ -33,7 +33,6 @@
 
 #import "RememberTheMilkAction.h"
 #import "RememberTheMilk.h"
-#import <QSCore/QSTextProxy.h>
 
 #import "QSRTMController.h"
 #import "RTMList.h"

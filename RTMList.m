@@ -32,7 +32,6 @@
  */
  
 #import "RTMList.h"
-#import <QSCore/QSResourceManager.h>
 
 NSDictionary *ListDescriptionWithXmlElement(NSXMLElement *elt)
 {

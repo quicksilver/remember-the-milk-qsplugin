@@ -31,8 +31,6 @@
  *  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
  */
 
-#import <QSCore/QSObject.h>
-#import <QSCore/QSActionProvider.h>
 #import "RememberTheMilkAction.h"
 
 

@@ -32,7 +32,6 @@
  */
 
 #import <Cocoa/Cocoa.h>
-#import <QSInterface/QSPreferencePane.h>
 
 @interface RTMPreferencePane : QSPreferencePane
 {

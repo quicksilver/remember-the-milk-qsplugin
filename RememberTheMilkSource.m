@@ -32,7 +32,6 @@
  */
 
 #import "RememberTheMilkSource.h"
-#import <QSCore/QSObject.h>
 #import "QSRTMController.h"
 #import "RTMSession.h"
 
@@ -68,7 +67,6 @@
 
 - (NSArray *) objectsForEntry:(NSDictionary *)theEntry
 {
-    NSMutableArray *objects=[NSMutableArray arrayWithCapacity:1];
       
     RTMSession *session = [m_controller getSessionWithError:NULL];
       
