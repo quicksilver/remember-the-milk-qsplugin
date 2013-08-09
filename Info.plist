@@ -19,7 +19,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.5.1</string>
 	<key>CFBundleVersion</key>
-	<string>FE</string>
+	<string>FF</string>
 	<key>QSActions</key>
 	<dict>
 		<key>RTMAddTaskAction</key>
@@ -90,12 +90,22 @@
 		</array>
 		<key>description</key>
 		<string>Provides an interface to quickly add Remember the Milk todo items.</string>
+		<key>extendedDescription</key>
+		<string>&lt;h2&gt;Remember The Milk Plugin&lt;/h2&gt;
+&lt;p&gt;The Remember The Milk plugin allows you to easily add tasks to your Remember the Milk account.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Setup&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Before you can add tasks, you must authenticate Quicksilver with your Remember The Milk account. Go to the &lt;a href="qs://preferences#RTMPreferencePane"&gt;Remember the Milk preferences&lt;/a&gt; within Quicksilver to do this.&lt;/p&gt;
+&lt;h3&gt;Actions&lt;/h3&gt;
+&lt;p&gt;There are two actions that are added by this plugin &lt;strong&gt;Create Task in…&lt;/strong&gt; and &lt;strong&gt;Add Task…&lt;/strong&gt;. Both actions perform the same thing: add a task to your RTM account, but the first takes text in Quicksilver's 1st pane and a RTM list in the 3rd pane, whilst the latter takes a RTM list in the 1st pane and text in the 3rd pane (that is - a reverse of the 1st action)&lt;/p&gt;
+&lt;h3&gt;Catalog&lt;/h3&gt;
+&lt;p&gt;By default, the plugin adds your RTM lists to Quicksilver's catalog. You can view the catalog Entries in Preferences → Catalog → Plugins → Remember the Milk Lists&lt;/p&gt;</string>
 		<key>icon</key>
 		<string>Cow</string>
 		<key>qsversion</key>
 		<string>29CC</string>
 		<key>relatedBundles</key>
-		<array/>
+		<array>
+		</array>
 	</dict>
 	<key>QSPresetAdditions</key>
 	<array>
