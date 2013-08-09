@@ -34,7 +34,8 @@
 #import "RTMAdditions.h"
 #import "RTMCommon.h"
 
-#import <openssl/md5.h>
+#import <CommonCrypto/CommonDigest.h>
+
 
 @implementation NSDictionary (RTMDictionaryAdditions)
 
@@ -137,36 +138,22 @@
 
 - (NSString *)md5
 {
-    const char *utf8Str;
-    unsigned long len;
-    NSMutableString *hexString;
-    int i;
-    
-    utf8Str = (const char *)[self UTF8String];
-    if (!utf8Str)
+    const char *utf8str = [self UTF8String];
+    if (!utf8str)
     {
         NSLog(@"-[NSString UTF8String] returned null");
         return nil;
     }
+    unsigned char result[16];
+    CC_MD5(utf8str, strlen(utf8str), result);
     
-    len = strlen(utf8Str);
-    
-    unsigned char *md5Data = MD5((unsigned const char *)utf8Str, len, NULL);
-    
-    if (!md5Data)
-    {
-        NSLog(@"MD5 returned null");
-        return nil;
-    }
-    
-    hexString = [NSMutableString string];
-    
-    for (i=0; i<MD5_DIGEST_LENGTH; i++)
-    {
-        [hexString appendFormat:@"%02x", md5Data[i]];
-    }
-    
-    return hexString;
+    return [NSString stringWithFormat:
+            @"%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X",
+            result[0], result[1], result[2], result[3],
+            result[4], result[5], result[6], result[7],
+            result[8], result[9], result[10], result[11],
+            result[12], result[13], result[14], result[15]
+            ];
 }
 
 - (NSString *)stringByAddingQueryEscapes
