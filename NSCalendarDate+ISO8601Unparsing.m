@@ -112,7 +112,7 @@ static BOOL is_leap_year(unsigned year) {
 	} else
 		timeString = @"";
 
-	return [NSString stringWithFormat:@"%u-%03u%@", [self yearOfCommonEra], [self dayOfYear], timeString];
+	return [NSString stringWithFormat:@"%lu-%03lu%@", (long)[self yearOfCommonEra], (long)[self dayOfYear], timeString];
 }
 
 #pragma mark -
