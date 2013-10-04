@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.5.2</string>
+	<string>1.5.3</string>
 	<key>CFBundleVersion</key>
-	<string>100</string>
+	<string>102</string>
 	<key>QSActions</key>
 	<dict>
 		<key>RTMAddTaskAction</key>
@@ -149,6 +149,11 @@
 				<string>Remember The Milk</string>
 			</dict>
 		</dict>
+	</dict>
+	<key>QSRequirements</key>
+	<dict>
+		<key>version</key>
+		<string>4001</string>
 	</dict>
 	<key>QSResourceAdditions</key>
 	<dict>
