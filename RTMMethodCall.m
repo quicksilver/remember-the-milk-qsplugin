@@ -113,7 +113,7 @@
 
 - (RTMResponse *)invokeSynchronously
 {
-    NSURL *requestUrl = [NSURL URLWithString:[NSString stringWithFormat:@"https://www.rememberthemilk.com/services/rest/?%@",
+    NSURL *requestUrl = [NSURL URLWithString:[NSString stringWithFormat:@"https://api.rememberthemilk.com/services/rest/?%@",
                                                                         [m_params urlQueryString]]];
                                                                         
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:requestUrl];
