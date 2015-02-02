@@ -51,6 +51,10 @@
         if (!m_xmlDoc)
         {
             NSLog(@"error initializing response: %@", err);
+#if DEBUG
+            NSString *str = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+            NSLog(@"Data was %@", str);
+#endif
             [self dealloc];
             return nil;
         }
