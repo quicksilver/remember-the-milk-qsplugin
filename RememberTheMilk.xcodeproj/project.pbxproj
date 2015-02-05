@@ -26,7 +26,6 @@
 		CD134BE414E027F600E6C7BF /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F35FF3E07F9ACD90056051D /* QSFoundation.framework */; };
 		CD134BE514E027F600E6C7BF /* QSEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA8E9C0816CCCA00A858CD /* QSEffects.framework */; };
 		CD134BE614E027F600E6C7BF /* QSInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA8E9D0816CCCA00A858CD /* QSInterface.framework */; };
-		CD2DEF9117B4D2BA00B8FFAD /* libcommonCrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2DEF9017B4D2BA00B8FFAD /* libcommonCrypto.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2DEF9117B4D2BA00B8FFAD /* libcommonCrypto.dylib in Frameworks */,
 				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
 				CD134BE314E027F600E6C7BF /* QSCore.framework in Frameworks */,
 				CD134BE414E027F600E6C7BF /* QSFoundation.framework in Frameworks */,
